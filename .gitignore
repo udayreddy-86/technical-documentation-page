@@ -1,0 +1,21 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node dependencies (if you later use npm for styling/tools)
+node_modules/
+npm-debug.log
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.local
+
+# Backup / temp files
+*.swp
+*.bak
+*.tmp
+*.log
