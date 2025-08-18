@@ -65,4 +65,4 @@ Once GitHub Pages is enabled, the project will be live here:
 - Upload a screenshot of your page (e.g., `screenshot.png`).  
 - Update the README to display it.  
 
-👉 Do you also want me to give you a **nice template for the screenshot image itself** (like a styled browser mockup frame) so it looks modern in your README?
+
