@@ -17,7 +17,8 @@ This project was inspired by developer documentation sites, designed for **learn
 ## 📸 Screenshot
 *(Upload your screenshot into an `images/` folder and link it here)*
 
-![Project Screenshot](images/screenshot.png)
+screenshot.png
+
 
 ---
 
