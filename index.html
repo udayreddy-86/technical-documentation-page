@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+  </head>
+
+  <body>
+    <header><h1>Py Documentation</h1></header>
+
+    <nav id="navbar">
+      <header>Python Docs</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#History_of_Python">History of Python</a>
+      <a class="nav-link" href="#Hello_World">Hello World</a>
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+      <a class="nav-link" href="#Strings">Strings</a>
+      <a class="nav-link" href="#Conditional_Statements">Conditional Statements</a>
+      <a class="nav-link" href="#Functions">Functions</a>
+      <a class="nav-link" href="#Arrays_and_Its_Types">Arrays and Its Types</a>
+      <a class="nav-link" href="#Modules">Modules</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2></header>
+        <p>Python is a high-level, versatile programming language used for a wide range of applications such as web development, automation, data analysis, artificial intelligence, and scientific computing. It is open-source, platform-independent, and supported by a large global community, making it one of the most popular languages today.</p>
+        <p>Python is known for its simple, readable syntax that resembles the English language, allowing developers to write clean and efficient code with fewer lines. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming, and runs on an interpreter, enabling quick testing and prototyping.</p>
+        <ul>
+          <li>Python is a high-level, versatile, and easy-to-read programming language used for web development, automation, data analysis, AI, and more, running on multiple platforms.</li>
+          <li>It supports multiple programming styles, has extensive libraries, and uses simple syntax, making it ideal for both beginners and professionals.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="History_of_Python">
+        <header><h2>History of Python</h2></header>
+        <ol type="i">
+          <li>Created by Guido van Rossum in the late 1980s, with development starting in December 1989 at CWI (Centrum Wiskunde & Informatica) in the Netherlands.</li>
+          <li>First released as Python 0.9.0 in February 1991, featuring functions, exception handling, and core data types.</li>
+          <li>Python 2.0 was released in 2000, introducing list comprehensions and garbage collection.</li>
+          <li>Python 3.0 came in 2008, designed to fix inconsistencies and improve the language, but not backward compatible with Python 2.</li>
+          <li>Today, Python is maintained by the Python Software Foundation and widely used across industries.</li>
+        </ol>
+      </section>
+
+      <section class="main-section" id="Hello_World">
+        <header><h2>Hello World</h2></header>
+        <p>The “Hello World” program is the simplest way to begin learning Python. It displays a short message on the screen and helps beginners understand Python’s straightforward syntax. Since Python uses an interpreter, you can run the code instantly without compiling. To print a message, you use the built-in print() function.</p>
+        <h4>Example:</h4>
+        <pre><code>print("Hello, World!")</code></pre>
+        <pre><code>print("Good Afternoon")</code></pre>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header><h2>Variables</h2></header>
+        <p>Variables in Python are used to store data values such as numbers, text, or other objects. Python uses dynamic typing, meaning you do not need to declare a variable’s type—it is automatically determined by the assigned value. A variable is created when a value is assigned using the = operator.</p>
+        <p>For example: <code>x = 5</code> (integer) or <code>name = "John"</code> (string).</p>
+        <p>Variable names are case-sensitive, must begin with a letter or underscore, and cannot start with a number.</p>
+      </section>
+
+      <section class="main-section" id="Data_Types">
+        <header><h2>Data Types</h2></header>
+        <p>Python provides several built-in data types to categorize values stored in variables. Some commonly used types are:</p>
+        <ul>
+          <li><b>Numeric Types</b> – int (integer), float (decimal), complex (complex numbers)</li>
+          <li><b>Sequence Types</b> – list, tuple, range</li>
+          <li><b>Text Type</b> – str (string)</li>
+          <li><b>Mapping Type</b> – dict (dictionary)</li>
+          <li><b>Set Types</b> – set, frozenset</li>
+          <li><b>Boolean Type</b> – bool (True or False)</li>
+        </ul>
+        <p>Example:</p>
+        <pre><code>a = 5
+print(type(a))</code></pre>
+      </section>
+
+      <section class="main-section" id="Strings">
+        <header><h2>Strings</h2></header>
+        <p>A string in Python is a sequence of characters enclosed within single quotes (' ') or double quotes (" "). Strings are used to store text and can include letters, numbers, symbols, and spaces. Python provides several operations and methods to work with strings, such as:</p>
+        <ul>
+          <li><b>Concatenation</b> – joining strings using "+" </li>
+          <li><b>Repetition</b> – repeating strings using "*" </li>
+          <li><b>Slicing</b> – extracting a portion of the string using [start:end]</li>
+          <li><b>Built-in methods</b> – len(), lower(), upper(), replace(), split()</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Conditional_Statements">
+        <header><h2>Conditional Statements</h2></header>
+        <ul>
+          <li><b>if statement</b> – executes a block if condition is True</li>
+          <li><b>if-else statement</b> – executes one block if condition is True and another if False</li>
+          <li><b>elif statement</b> – checks multiple conditions sequentially</li>
+        </ul>
+        <p>Example:</p>
+        <pre><code>x = 10
+if x > 0:
+    print("Positive")
+elif x == 0:
+    print("Zero")
+else:
+    print("Negative")</code></pre>
+      </section>
+
+      <section class="main-section" id="Functions">
+        <header><h2>Functions</h2></header>
+        <p>A function in Python is a block of reusable code that performs a specific task. Functions help organize programs, reduce repetition, and make code easier to maintain. Python provides built-in functions like print() and len(), and also allows users to define custom functions using the def keyword. A function can accept input values called parameters and can return a value using the return statement.</p>
+      </section>
+
+      <section class="main-section" id="Arrays_and_Its_Types">
+        <header><h2>Arrays and Its Types</h2></header>
+        <p>An array in Python is a collection of elements stored in a single variable. Arrays can hold multiple values and allow operations like indexing, slicing, and iteration. Python provides arrays mainly in two forms: lists, which are dynamic and can hold elements of different types, and arrays from the array module, which store elements of a specific type for memory efficiency.</p>
+      </section>
+
+      <section class="main-section" id="Modules">
+        <header><h2>Modules</h2></header>
+        <p>A module in Python is a file containing Python code—such as functions, classes, or variables—that can be reused in other programs. Modules help organize code, promote reusability, and make programs easier to maintain. Python includes a rich standard library of built-in modules like math, random, and os, and developers can also create custom modules. Modules are imported into a program using the import statement.</p>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header><h2>Reference</h2></header>
+        <ol>
+          <li><a href="https://docs.python.org/3/">Python 3 Documentation</a></li>
+          <li><a href="https://www.w3schools.com/python/">Python Tutorial</a></li>
+          <li><a href="https://www.tutorialspoint.com/python/index.htm">Python Programming Language Tutorial</a></li>
+          <li><a href="https://realpython.com/">Python Tutorials and Guides</a></li>
+        </ol>
+      </section>
+      <footer>Uday_Reddy@2025</footer>
+    </main>
+  </body>
+</html>
