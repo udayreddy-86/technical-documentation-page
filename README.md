@@ -58,11 +58,6 @@ Once GitHub Pages is enabled, the project will be live here:
 
 👨‍💻 Developed by Uday Reddy
 
----
 
-📌 Next Step for You:  
-- Create an `images/` folder in your repo.  
-- Upload a screenshot of your page (e.g., `screenshot.png`).  
-- Update the README to display it.  
 
 
